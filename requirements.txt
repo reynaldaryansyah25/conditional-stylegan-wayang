@@ -1,0 +1,46 @@
+# ===============================
+# PYTORCH (INSTALL MANUAL CUDA)
+# ===============================
+# Install first with:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# ===============================
+# NUMERICAL CORE
+# ===============================
+numpy==1.26.4
+scipy==1.11.4
+
+# ===============================
+# IMAGE PROCESSING
+# ===============================
+opencv-python==4.9.0.80
+scikit-image==0.22.0
+pillow==10.2.0
+albumentations==1.4.3
+
+# ===============================
+# DATA ANALYSIS & VISUALIZATION
+# ===============================
+matplotlib==3.8.2
+pandas==2.2.0
+scikit-learn==1.4.0
+seaborn==0.13.2
+
+# ===============================
+# GAN EVALUATION
+# ===============================
+torch-fidelity==0.3.0
+
+# ===============================
+# UTILITIES
+# ===============================
+tqdm==4.66.1
+click==8.1.7
+pyyaml==6.0.1
+requests==2.31.0
+
+# ===============================
+# NOTEBOOK SUPPORT
+# ===============================
+jupyter==1.0.0
+ipykernel==6.29.2
